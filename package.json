@@ -1,0 +1,14 @@
+{
+  "name": "mealscorer",
+  "version": "1.0.0",
+  "description": "Fullstack Nextjs app (connects to a Java/Spring boot backend) that allows users to create a meal that is scored.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-next-app": "^14.0.4"
+  }
+}
