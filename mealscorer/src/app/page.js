@@ -9,7 +9,7 @@ export default function Home() {
     <main className={styles.main}>
       <Header />
       <section className={styles.createFoodButtonContainer}>
-        <CTAButton title="Create Food Item" />
+        <CTAButton link="/pages/CreateNewFood" title="Create Food Item" />
       </section>
     </main>
   )
