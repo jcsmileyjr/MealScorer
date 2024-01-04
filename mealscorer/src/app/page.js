@@ -8,7 +8,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header />
-      <CTAButton title="Create Food Item" />
+      <section className={styles.createFoodButtonContainer}>
+        <CTAButton title="Create Food Item" />
+      </section>
     </main>
   )
 }

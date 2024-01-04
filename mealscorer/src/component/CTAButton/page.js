@@ -1,8 +1,11 @@
 import styles from "./ctaButton.module.css";
+import Link from "next/link";
 export default async function CTAButton ({title, link}) {
     return(
-        <button className={styles.container}>
-            {title}
-        </button>
+        <Link className={styles.container} href={`/${encodeURIComponent(link)}`}>
+            <button className={styles.ctaButton} >
+                {title}
+            </button>
+        </Link>
     )
 }

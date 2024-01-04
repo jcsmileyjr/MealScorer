@@ -6,3 +6,9 @@
   padding: 6rem; */
   min-height: 100vh;
 }
+
+.createFoodButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
