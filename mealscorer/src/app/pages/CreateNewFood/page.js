@@ -21,7 +21,7 @@ const CreateNewFood = () => {
         console.log(`Name: ${name} is of type ${type} as: `, requestOptions);
 
         fetch('http://localhost:8080/createFoodItem', requestOptions);
-        router.push('/FoodOptions')         
+        router.push('/pages/FoodOptions')         
     }
 
     return(
