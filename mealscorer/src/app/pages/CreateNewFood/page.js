@@ -11,14 +11,12 @@ const CreateNewFood = () => {
     const [name, setFoodname] = useState("");
     const [type, setFoodType] = useState("");
 
-    const createFoodItem = () => {
-        
+    const createFoodItem = () => {        
         const requestOptions = {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({'name': name, 'type' : type})
         }
-        console.log(`Name: ${name} is of type ${type} as: `, requestOptions);
 
         fetch('http://localhost:8080/createFoodItem', requestOptions);
         router.push('/pages/FoodOptions')         

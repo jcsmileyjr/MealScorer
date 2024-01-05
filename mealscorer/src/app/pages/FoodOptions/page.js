@@ -15,7 +15,7 @@ export default async function FoodOptions () {
         <main className={styles.main}>
             <Header />
             <section className={styles.container}>
-                <CTAButton link="/" title="Create Food Item" />
+                <CTAButton link="/pages/CreateNewFood" title="Create Food Item" />
             </section>
             <section className={styles.container}><p>OR</p></section>
             
