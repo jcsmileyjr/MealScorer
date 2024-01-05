@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    max-width: 50%;
+}
+
+
+.addButtonContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    max-width: 20%;
+}
+
+@media screen and (min-width: 600px) {
+    .inputContainer {
+        max-width: 30%;
+    }
+
+    .addButtonContainer {
+        max-width: 10%;
+    }
+}
+
+.labelField {
+    color: #0500FA;
+    font-size: 1.5rem;
+}
+
+.dataField {
+    padding: .5rem;
+    margin-top: .5rem;
+    color: #0500FA;
+    border: 5px solid #2A28C7;
+    font-size: 1.5rem;
+}
+
+.resultsContainer {
+    display: flex;
+    justify-content: space-around;
+}

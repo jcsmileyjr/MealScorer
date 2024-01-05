@@ -37,5 +37,3 @@ export default async function FoodOptions () {
         </main>
     )
 }
-
-//export default FoodOptions;
