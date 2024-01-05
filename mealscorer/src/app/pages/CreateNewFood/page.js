@@ -34,7 +34,7 @@ const CreateNewFood = () => {
             <section className={styles.contentContainer}>
                 <div className={styles.inputContainer}>
                     <label className={styles.labelField} htmlFor='typeField'>Type</label>
-                    <select onChange={(e) => setFoodType(e.target.value)} className={`${styles.dataField} ${styles.selectField}`} id="typeField">
+                    <select defaultValue="meat" onChange={(e) => setFoodType(e.target.value)} className={`${styles.dataField} ${styles.selectField}`} id="typeField">
                         <option value="meat">Meat</option>
                         <option value="vegetable">Vegetable</option>
                         <option value="bread">Bread</option>
