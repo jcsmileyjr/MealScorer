@@ -1,13 +1,13 @@
 .container {
     color: #2A28C7;
     border: 5px solid #2A28C7;
-    min-width: 40%;
+    min-width: 30%;
     padding: .5rem;
 }
 
 @media screen and (min-width: 600px) {
     .container {
-        min-width: 30%;
+        min-width: 40%;
     }
 }
 

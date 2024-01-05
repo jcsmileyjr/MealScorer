@@ -1,0 +1,49 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;
+    align-items: center;
+    padding: 6rem; */
+    min-height: 100vh;
+  }
+
+  .contentContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    max-width: 50%;
+
+  }
+
+  @media screen and (min-width: 600px) {
+    .inputContainer {
+        max-width: 60%;
+    }
+  }
+
+  .labelField {
+    color: #2A28C7;
+    font-size: 1.5rem;
+  }
+
+  .dataField {
+    padding: .5rem;
+    margin-top: .5rem;
+    color: #2A28C7;
+    border: 5px solid #2A28C7;
+    font-size: 1.5rem;
+  }
+
+  .doneButton {
+    color: #2A28C7;
+    border: 5px solid #2A28C7;
+    padding: 1rem 2.5rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+  }
