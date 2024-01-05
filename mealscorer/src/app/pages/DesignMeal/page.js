@@ -29,7 +29,7 @@ const DesignMeal = () => {
             }
         })
 
-        setMeal(foundFoodItem.name);
+        setMeal([...meal, foundFoodItem.name]);
         
         const requestOptions = {
             method: 'POST',
@@ -63,8 +63,8 @@ const DesignMeal = () => {
             <section className={styles.resultsContainer}>
                 <div className={styles.leftContent}>
                     <p className={styles.labelField}>Menu</p>
-                    {meal && meal.map( foodName => (
-                        <p>{foodName}</p>
+                    {meal && meal.map( (foodName, index) => (
+                        <p key={`food-${index}`}>{foodName}</p>
                     ))
 
                     }

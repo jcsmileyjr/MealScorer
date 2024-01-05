@@ -20,7 +20,7 @@ export default async function FoodOptions () {
             <section className={styles.container}><p>OR</p></section>
             
             <section className={styles.container}>
-                <CTAButton link="/" title="Design Meal" />
+                <CTAButton link="/pages/DesignMeal" title="Design Meal" />
             </section>
             <section className={styles.container}>
                 <p className={styles.contentTitle}>Food Options</p>
