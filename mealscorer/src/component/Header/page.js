@@ -1,13 +1,11 @@
 import styles from './header.module.css'
+import Link from "next/link";
 
-/**
- * 
- * @returns 
- */
+
 export default function header({}) {
     return (
-        <div className={styles.container}>            
+        <Link className={styles.container} href="/">            
             <h1>Meal Planner and Scorer</h1>
-        </div>
+        </Link>
     )
 }
