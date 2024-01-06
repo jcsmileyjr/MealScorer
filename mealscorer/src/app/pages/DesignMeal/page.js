@@ -72,7 +72,9 @@ const DesignMeal = () => {
                 </div>
                 <div className={styles.rightContent}>
                      <p className={`${styles.labelField} ${styles.title}`}>Score</p>
-                     <p>{mealScore}</p>
+                     <div className={styles.scoreContainer}>
+                        <p>{mealScore}</p>
+                     </div>
                 </div>
             </section>
         </main>

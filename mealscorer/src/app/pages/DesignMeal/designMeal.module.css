@@ -69,9 +69,16 @@
 
 .mealContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1rem 1rem;
     padding: 0 1rem;
+    text-align: center;
+}
+
+.scoreContainer {
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .title {
