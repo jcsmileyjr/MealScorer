@@ -47,6 +47,7 @@
     color: #0500FA;
     border: 5px solid #2A28C7;
     font-size: 1.5rem;
+    background-color: transparent;
 }
 
 .resultsContainer {
