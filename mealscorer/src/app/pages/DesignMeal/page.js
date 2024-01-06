@@ -62,15 +62,16 @@ const DesignMeal = () => {
             </section>
             <section className={styles.resultsContainer}>
                 <div className={styles.leftContent}>
-                    <p className={styles.labelField}>Menu</p>
-                    {meal && meal.map( (foodName, index) => (
-                        <p key={`food-${index}`}>{foodName}</p>
-                    ))
-
-                    }
+                    <p className={`${styles.labelField} ${styles.title}`}>Menu</p>
+                    <div className={styles.mealContainer}>
+                        {meal && meal.map( (foodName, index) => (
+                            <p key={`food-${index}`}>{foodName}</p>
+                        ))
+                        }
+                    </div>
                 </div>
                 <div className={styles.rightContent}>
-                     <p className={styles.labelField}>Score</p>
+                     <p className={`${styles.labelField} ${styles.title}`}>Score</p>
                      <p>{mealScore}</p>
                 </div>
             </section>

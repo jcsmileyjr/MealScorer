@@ -51,5 +51,29 @@
 
 .resultsContainer {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    color: #2A28C7;
+}
+
+.rightContent {
+    flex: 1;
+    text-align: center;
+    color: #2A28C7;
+}
+
+.mealContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem 1rem;
+    padding: 0 1rem;
+}
+
+.title {
+    text-align: center;
 }
